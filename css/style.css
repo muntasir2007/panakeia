@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+
+header h1{
+    font-size: 65px;
+}
+
+#news{
+    background-color: #dddddd;
+}
+
+.navicon{
+    width: 40px;
+    height: 50px;
+}
+
+.js-scroll-trigger.active{
+    background-color: coral;
+    border-radius: 20%;
+    color: white!important;
+}
+
+.card{
+    border: 0;
+}
+
+.card-img-top{
+    border-radius: 100px;
+}
+
+#about{
+    background: url(../img/newsletter.png) no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 30px;
+}
+.w-40{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+.py-7{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.email{
+    position: relative;
+    width: 400px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background: radial-gradient(transparent 30%,rgba(245, 245, 245, .5));
+    left: 100px;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+
+.signup{
+    position: relative;
+    padding: 10px 40px;
+    border: 0;
+    background-color: white;
+    color: #6D3428;
+    left: -100px;
+    width: 200px;
+}
+
+.recipe-width{
+    width: 200px;
+}
+
+#contact{
+    background-color: #d75d0e;
+}
+
+
+.textbox{
+    width: 445px;
+    height: 200px;
+}
+
+.textbox::placeholder{
+    position: relative;
+    top: -40px;
+}
+
+#contact input::placeholder{
+    color: #888686;
+}
+
+#contact .col-md-5{
+    width: 600px!important;
+}
+
+.w-01{
+    width: 100%;
+}
+
+.text-light{
+    color: rgba(196, 255, 220, 0.425)!important;
+}
+
+footer{
+    color: white;
+    padding: 20px;
+}
+
+footer i{
+    font-size: 30px!important;
+    position: relative;
+    left: 850px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+footer i:hover{
+    color: rgb(0, 140, 255)!important;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.visible-media{
+    display: none;
+}
+
+
+footer br{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    *{
+        position: static!important;
+    }
+
+    .signup{
+        display: block;
+        margin: 0 auto;
+    }
+
+    header{
+        height: auto;
+    }
+    .email{
+        position: static;
+        width: 300px!important;
+    }
+    .card{
+        width: 100%!important;
+    }
+    .fa{
+        visibility: hidden;
+    }
+    .visible-media{
+        display: block;
+        text-align: center;
+    }
+
+    footer br{
+        display: block;
+    }
+
+    .sp-img{
+        width: 60%;
+        height: 60%;
+        margin: 0 auto;
+    }
+    .fixed-top{
+        position: fixed!important;
+    }
+}
